@@ -6,9 +6,9 @@ Batch-convert single-chain FASTA (.fa/.fasta) sequences into AlphaFold Server in
 
 Convert **ProteinMPNN** FASTA outputs (`.fa/.fasta`) into **AlphaFold Server** input JSON format (dialect: `alphafoldserver`, version `1`).
 
-- ✅ **Single-chain** FASTA supported (each FASTA record → one AlphaFold Server “job”)
-- ✅ Batch processing: **many sequences in one FASTA → one JSON file** containing a list of jobs
-- ✅ No third-party dependencies (pure Python 3)
+-  **Single-chain** FASTA supported (each FASTA record → one AlphaFold Server “job”)
+-  Batch processing: **many sequences in one FASTA → one JSON file** containing a list of jobs
+-  No third-party dependencies (pure Python 3)
 
 > Not affiliated with AlphaFold / DeepMind / Google. This is a small utility script for preparing inputs.
 
@@ -36,23 +36,7 @@ Check:
 python3 --version
 ````
 
----
 
-## Installation (no git)
-
-### Option A: Download this repository as ZIP (GitHub UI)
-
-1. Open the repo page → **Code** → **Download ZIP**
-2. Unzip
-3. `cd` into the folder
-
-### Option B: Download just the script (Raw)
-
-1. Click `mpnn_fa_to_afserver_json.py`
-2. Click **Raw**
-3. Save the page as `mpnn_fa_to_afserver_json.py`
-
----
 
 ## One-line, copy-paste command (most common)
 
@@ -253,4 +237,4 @@ Issues and PRs are welcome:
 * automatic chunking into multiple JSON files
 * richer header parsing for ProteinMPNN naming
 
-This work is done at https://jieyang-lab.com/[https://jieyang-lab.com/] at UVA[https://www.virginia.edu/] school of medicine, Biochemistry-Molecular Genetics[https://med.virginia.edu/bmg/]
+This work is done at [Jie Lab](https://jieyang-lab.com/) at [UVA](https://www.virginia.edu/) school of medicine, [Biochemistry-Molecular Genetics](https://med.virginia.edu/bmg/)
