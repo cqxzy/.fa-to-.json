@@ -237,4 +237,4 @@ Issues and PRs are welcome:
 * automatic chunking into multiple JSON files
 * richer header parsing for ProteinMPNN naming
 
-This work is done at [Jie Lab](https://jieyang-lab.com/) at [UVA](https://www.virginia.edu/) school of medicine, [Biochemistry-Molecular Genetics](https://med.virginia.edu/bmg/)
+This work is done at [Yang Lab](https://jieyang-lab.com/) at [UVA](https://www.virginia.edu/) school of medicine, [Biochemistry-Molecular Genetics](https://med.virginia.edu/bmg/)
